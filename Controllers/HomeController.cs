@@ -26,7 +26,7 @@ namespace WebApplication1.Controllers
             var secret = "wellwindJtwDemo";
 
             // TODO: 真實世界檢查帳號密碼
-            if (Username == "wellwind" && Password == "12345")
+            if (Username == "wellwind123" && Password == "12345")
             {
                 var payload = new JwtAuthObject()
                 {
